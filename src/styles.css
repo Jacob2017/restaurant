@@ -1,0 +1,83 @@
+body {
+    /* background-color: rebeccapurple; */
+    margin: 0px;
+}
+
+div.aboveFold {
+    background: url('./restaurant.jpg');
+    color: white;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.belowFold {
+    background: url('./kitchen.jpg');
+    color: white;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.belowFoldContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: darkslategrey;
+}
+
+div.recognition {
+    display: flex;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h5.menuItem {
+    font-size: 14pt;
+    margin: 0px;
+}
+
+p.menuDescription {
+    font-size: 10pt;
+}
+
+header {
+    height: 5vh;
+    background-color: antiquewhite;
+}
+
+.menu-base {
+    min-height: 50vh;
+    margin: 0px;
+    padding: 4px;
+}
+
+.alacarte {
+    background-color: #A0E3B9;
+}
+
+.discovery {
+    background-color: #F2ED88;
+}
+
+.menu-headers h1 {
+    margin: 0px;
+}
+
+.menu-headers {
+    padding: 8px;
+}
